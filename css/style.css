@@ -1,0 +1,152 @@
+body{
+    background-color: #edefee;
+    font-family: 'Markazi Text',serif;
+    color: #333333;
+    margin: 3rem 3rem 5% 5%;
+}
+h1{
+    
+    font-size: 3rem;
+    color: #495e57;
+    text-align: center;
+    padding: 1rem;
+  
+}
+#h1_p{
+    text-align: center;
+    font-size: 2rem;
+}
+h2{
+    font-size: 2rem;
+    color: #495e57;
+}
+
+header > img {
+    display: block;
+    width: 30rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: #495e57;
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    
+    flex-wrap: wrap;
+    
+}
+nav li{
+    margin: 0;
+    /*display: inline-block;*/
+
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    
+    
+}
+nav a:hover{
+    color: #f4ce14;
+}
+#promopage_img{
+    width: 100%;
+    max-width: 60rem;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+
+}
+#promopage_img:hover {
+    transform: scale(1.05); 
+}
+#restaurant_img {
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+#restaurant_img:hover {
+    transform: scale(1.05);
+}
+#menu_img{
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+#menu_img:hover{
+    transform: scale(1.05);
+}
+
+#about_img{
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+#about_img:hover{
+    transform: scale(1.05);
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+article{
+    flex: 1;
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+article h2{
+    color: #495e57;
+}
+article p{
+    color:#333333 ;
+}
+
+
+footer{
+    display: flex;
+    background-color: #495e57;
+    color: #ffffff;
+    border-radius: 8px;
+    padding:1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+footer img {
+    width: 2rem;
+    height: auto;
+    
+    
+}
+footer div{
+    flex: 1;
+    text-align: center;
+}
