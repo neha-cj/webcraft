@@ -1,0 +1,142 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #3d004f, #000);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Header Section - Stats */
+  .stats-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    text-align: center;
+    background: linear-gradient(90deg, #430d5a, #320040);
+    
+  }
+  
+ 
+  .stat h2 {
+    font-size: 2rem;
+    color: transparent;  
+    background: linear-gradient(90deg, #ff8a00, #a987c2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  
+  .stat p {
+    font-size: 1rem;
+    color: #a987c2;
+  }
+  
+  /* Plot Section */
+  .plot-section {
+    /*display: flex; */
+    align-items: center; 
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  
+  .plot-content {
+    max-width: 50%;
+  }
+  
+  .plot-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  .plot-content hr {
+    border: none;
+    border-top: 2px solid #ff8a00;
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .plot-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+
+  .plot-image {
+    flex: 1;
+    text-align: right; /* Aligns the image to the right */
+  }
+  
+  .plot-image img {
+    
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  }
+  .story-plot {
+    background: linear-gradient(to bottom, #1a1a2e, #16213e);
+    color: #fff;
+    padding: 50px 20px;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .gradient-title {
+    font-size: 2.5rem;
+    color: transparent;
+    background: linear-gradient(45deg, #ff7eb3, #ff758c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .plot-content h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .plot-content p {
+    line-height: 1.8;
+    font-size: 1rem;
+  }
+  
+  .plot-content b {
+    color: #ff7eb3;
+  }
+  
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .stats-section {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .plot-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .plot-content {
+      max-width: 100%;
+    }
+  
+    .plot-image img {
+      max-width: 100%;
+    }
+  }
+  

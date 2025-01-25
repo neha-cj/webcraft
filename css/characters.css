@@ -1,0 +1,82 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #320d4b, #000000);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header {
+    margin-bottom: 40px;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  /* Characters Section */
+  .characters {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .character-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    transition: background 0.3s, color 0.3s;
+    transition: transform 0.3s ease-in-out;
+  }
+  .character-card:hover{
+    transform: scale(1.05); 
+    background: #ff8a00;
+    color: #000;
+  }
+  
+  .character-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .character-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .character-card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .character-card p strong {
+    color: #fff;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .characters {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .character-card {
+      width: 90%;
+    }
+  }
+  
