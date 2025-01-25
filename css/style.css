@@ -25,6 +25,9 @@ body {
     font-size: 24px;
     font-weight: bold;
 }
+.logo img{
+    width: 30px;
+}
 
 .nav-links {
     list-style: none;
